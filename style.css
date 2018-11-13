@@ -1,7 +1,7 @@
 #navbar {
     height: 100%;
     width: 15%;
-    border: 2px rgb(27, 26, 26) solid;
+    border: 2px rgb(41, 32, 32) solid;
     display: flex;
     flex-direction: column;
     position: fixed;
@@ -22,18 +22,18 @@ body {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 20px;
-    margin-top: 20%;
+    padding: 20px;
     border-bottom: 2px solid rgb(119, 114, 114);
+    font-family: 'Bree Serif', serif;
 }
 
-a {
-    height: 5%;
-
-}
 
 #nav-title {
-    font-size: 30px;
+    font-size: 35px;
     color: #fff;
+    font-family: 'Bree Serif', serif;
+    padding: 20px;
+    margin-top: -10px;
 }
 
 #main-doc {
@@ -42,10 +42,34 @@ a {
 
 h2 {
     font-size: 2em;
+    font-family: 'Bree Serif', serif;
+    margin-left: -20px;
 }
 
 p {
     font-size: 2em;
     margin-right: 50px;
     font-family: 'Roboto', sans-serif; 
+}
+
+li {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+
+a:hover {
+    color: rgb(51, 19, 19);
+}
+
+.nav-links:hover {
+    background-color: #C2EFEB;
+}
+
+#second-title {
+    margin-top: 200px;
+}
+
+#usage {
+    margin-top: 200px;
 }
