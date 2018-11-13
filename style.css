@@ -4,16 +4,30 @@
     border: 2px rgb(27, 26, 26) solid;
     display: flex;
     flex-direction: column;
-    text-align: start;
-    
+    position: fixed;
+    background-color: #41337A;
 }
 
 body {
     padding: 0;
     margin: 0;
+    background-color: #C2EFEB;
 }
 
 .nav-links {
-    margin: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20%;
+    border-bottom: 2px solid rgb(119, 114, 114);
+}
 
+a {
+    height: 5%;
+
+}
+
+#nav-title {
+    font-size: 30px;
+    color: #fff;
 }
