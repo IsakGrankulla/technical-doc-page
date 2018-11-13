@@ -15,7 +15,7 @@ body {
     box-sizing: border-box; 
     padding: 0;
     margin: 0;
-    background-color: #C2EFEB;
+    background-color: rgb(166, 219, 215);
 }
 
 .nav-links {
@@ -80,4 +80,62 @@ a:hover {
 
 #dis {
     margin-top: 200px;
+}
+
+#img {
+    width: 275px;
+}
+
+@media screen and (max-width: 600px) {
+    #img {
+        width: 110px;
+    }
+    p {
+        font-size: 10px;
+        margin-left: -90%;
+    }
+    li {
+        font-size: 10px;
+        margin-left: -100%;
+    }
+    h2 {
+        font-size: 12px;
+        margin-left: -100%;
+    }
+    #navbar {
+        width: 20%
+    }
+    .nav-links {
+        font-size: 13px;
+    }
+    #nav-title {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    p {
+        font-size: 12px;
+        margin-left: -210px;
+    }
+    li {
+        font-size: 10px;
+        margin-left: -220px;
+    }
+    h2 {
+        font-size: 12px;
+        margin-left: -230px;
+    }
+    #navbar {
+        width: 20%
+    }
+    .nav-links {
+        font-size: 8px;
+    }
+    #nav-title {
+        font-size: 15px;
+    }
+    #img {
+        width: 80px;
+    }
 }
