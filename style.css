@@ -1,3 +1,4 @@
+/* NAVBAR */
 #navbar {
     height: 100%;
     width: 15%;
@@ -8,7 +9,7 @@
     background-color: #41337A;
 
 }
-
+/* BODY */
 body {
     display: flex;
     flex-direction: column;
@@ -17,8 +18,8 @@ body {
     margin: 0;
     background-color: rgb(166, 219, 215);
 }
-
-.nav-links {
+/* NAVBAR */
+.nav-link {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 20px;
@@ -35,7 +36,7 @@ body {
     padding: 20px;
     margin-top: -10px;
 }
-
+/* SECTIONS */
 #main-doc {
     margin-left: 350px;
 }
@@ -62,7 +63,7 @@ a:hover {
     color: rgb(51, 19, 19);
 }
 
-.nav-links:hover {
+.nav-link:hover {
     background-color: #C2EFEB;
 }
 
@@ -81,12 +82,12 @@ a:hover {
 #dis {
     margin-top: 200px;
 }
-
+/* IMG */
 #img {
     width: 100%;
     margin: auto;
 }
-
+/* MEDIA */
 @media screen and (max-width: 600px) {
     #img {
         width: 110px;
